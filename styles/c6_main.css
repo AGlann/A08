@@ -53,16 +53,10 @@ section {
 	padding: 0 20px 20px 20px; /* Adjusted padding */
 }
 
-section h1 {
-	font-size: 130%;
-	color: #800000;
-	padding: .5em 0 .25em 0;
-}
-
 section h2 {
 	color: #800000;
-	font-size: 120%; /* Reduced font size */
-	padding: .25em 0 .25em 0; /* Adjusted padding */
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
 }
 
 /* the styles for the aside */
@@ -90,6 +84,8 @@ aside img {
 /* the styles for the article */
 article {
 	padding: .5em 0;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
 	width: 525px;
 	float: right;
 }
@@ -106,6 +102,7 @@ article h3 {
 article img {
 	float: right;
 	margin: 10px 0 10px 10px; /* Adjusted margins */
+	border: 1px solid black; /* Added border */
 }
 
 /* the styles for the footer */
